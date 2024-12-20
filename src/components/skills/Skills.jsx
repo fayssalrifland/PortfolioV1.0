@@ -1,8 +1,8 @@
 import React from 'react'
-import CV_Resume from './CV_Resume.pdf'
-import Frontendss from '../../assets/Frontendss.png'
-import Frontendss1 from '../../assets/Frontendss1.png'
-import Frontendss2 from '../../assets/Frontendss2.png'
+import CV_Resume from '../CV_Resume.pdf'
+import Frontendss from '../src/assets/Frontendss.png'
+import Frontendss1 from '../src/assets/Frontendss1.png'
+import Frontendss2 from '../src/assets/Frontendss2.png'
 
 const Skills = () => {
   return (
