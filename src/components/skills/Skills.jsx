@@ -1,8 +1,8 @@
 import React from 'react'
 import CV_Resume from './CV_Resume.pdf'
-import Frontends from '../../assets/Frontends.png'
-import Frontends1 from '../../assets/Frontends1.png'
-import Frontends2 from '../../assets/Frontends2.png'
+import Frontendss from '../../assets/Frontendss.png'
+import Frontendss1 from '../../assets/Frontendss1.png'
+import Frontendss2 from '../../assets/Frontendss2.png'
 
 const Skills = () => {
   return (
@@ -14,9 +14,9 @@ const Skills = () => {
             <p className='text-sm leading-4 font-medium text-white sm:text-slate-500 md:text-blue-900'>Skills</p>
         </div>
         <div data-aos='fade-up' data-aos-delay='300' className='grid gap-4 col-start-1 col-end-3 row-start-1 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:col-start-2 lg:row-end-6 lg:row-span-6 lg:mb-0'>
-            <img src={Frontends} alt="" className='w-full h-60 object-cover rounded-lg sm:h-52 sm:col-span-2 lg:col-span-full' loading='lazy'/>
-            <img src={Frontends1} alt="" className='hidden w-full h-52 object-cover rounded-lg sm:block sm:col-span-2 md:col-span-1 lg:row-start-2 lg:col-span-2 lg:h-32' loading='lazy'/>
-            <img src={Frontends2} alt="" className='hidden w-full h-52 object-cover rounded-lg md:block lg:row-start-2 lg:col-span-2 lg:h-32' loading='lazy' />
+            <img src={Frontendss} alt="" className='w-full h-60 object-cover rounded-lg sm:h-52 sm:col-span-2 lg:col-span-full' loading='lazy'/>
+            <img src={Frontendss1} alt="" className='hidden w-full h-52 object-cover rounded-lg sm:block sm:col-span-2 md:col-span-1 lg:row-start-2 lg:col-span-2 lg:h-32' loading='lazy'/>
+            <img src={Frontendss2} alt="" className='hidden w-full h-52 object-cover rounded-lg md:block lg:row-start-2 lg:col-span-2 lg:h-32' loading='lazy' />
         </div>
         <div className='mt-4 md:col-start-1 md:row-start-3 self-center lg:mt-2 lg:col-start-1 lg:row-start-3 lg:row-end-4'>
           <a href={CV_Resume} download>
