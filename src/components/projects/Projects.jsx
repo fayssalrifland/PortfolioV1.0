@@ -1,7 +1,7 @@
 import React from 'react'
-import Frontend from '../../assets/frontend.png'
-import Frontend1 from '../../assets/frontend1.png'
-import Frontend2 from '../../assets/frontend2.png'
+import Frontends from '../../assets/Frontends.png'
+import Frontends1 from '../../assets/Frontends1.png'
+import Frontends2 from '../../assets/Frontends2.png'
 
 const ProjectCard = ({image, title}) =>(
     <div className='p-4 md:w-1/3 mb-6'>
@@ -19,9 +19,9 @@ const ProjectCard = ({image, title}) =>(
 
 export default function Projects() {
     const projects = [
-        {title:'Portfolio',image: Frontend},
-        {title:'site web ecommerce',image: Frontend1},
-        {title:'site web ecommerce',image: Frontend2},
+        {title:'Portfolio',image: Frontends},
+        {title:'site web ecommerce',image: Frontends1},
+        {title:'site web ecommerce',image: Frontends2},
     ];
   return (
     <section id='projects' className='text-gray-400 bg-blue-950 body-font'>
