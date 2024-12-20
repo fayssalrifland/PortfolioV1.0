@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../navbar/NAvbar'
+import Navbar from '../navbar/Navbar'
 import me from '../../assets/me.png'
 
 export default function Hero() {
